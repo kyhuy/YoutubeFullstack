@@ -1,0 +1,34 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.red {
+  border: 1px solid red;
+}
+.green {
+  border: 1px solid green;
+}
+.banner {
+  height: 500px;
+  padding: 20px;
+  background-image: url("./banner.jpg");
+}
+.about-sign-in {
+  height: 80px;
+  width: 100%;
+  text-align: right;
+}
+.about,
+.sign-in {
+  margin-top: 20px;
+  padding: 7px 15px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.sign-in {
+  margin-right: 60px;
+  margin-left: 25px;
+  border-radius: 20px;
+  border: 1px solid green;
+}
