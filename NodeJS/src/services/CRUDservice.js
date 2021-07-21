@@ -43,7 +43,9 @@ let getAllUser = () => {
     }
   });
 };
+let getUserInfoById = (id) => {};
 module.exports = {
   createUser: createUser,
   getAllUser: getAllUser,
+  getUserInfoById: getUserInfoById,
 };
